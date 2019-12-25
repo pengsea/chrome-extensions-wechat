@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<meta charset="UTF-8"/>
+
+<head>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        button {
+            border-radius: 4px;
+            color: #fff;
+            background-color: #0C8EE8;
+            width: 200px;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+            height: 40px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1;
+            border: 1px solid #1890ff;
+            cursor: pointer;
+        }
+
+
+        label {
+            font-size: 16px;
+        }
+
+        .items {
+            width: 700px;
+            padding-left: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            float: left;
+        }
+
+        li div {
+            float: right;
+            width: 640px;
+        }
+
+        .method {
+            display: flex;
+            align-items: center;
+        }
+
+        .method div {
+            margin-right: 10px;
+        }
+    </style>
+    <title></title>
+</head>
+
+<body>
+<div class="items">
+    <label><input type="checkbox" id="checkbox1" checked disabled/>放开页面宽度</label>
+    <label><input type="checkbox" id="checkbox2" checked disabled/>隐藏固定的扫一扫二维码</label>
+    <label><input type="checkbox" id="checkbox3" checked disabled/>减小行间距</label>
+</div>
+<div class="method">
+    <div>
+        <button id="triggerOptimize">点击优化</button>
+    </div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+
+</html>
