@@ -1,4 +1,9 @@
-var css = '.rich_media_area_primary_inner { max-width: none; } .qr_code_pc_inner{display:none;} section{margin:0!important}',
+var css = '.rich_media_area_primary_inner { max-width: none; }' +
+    ' .qr_code_pc_inner{display:none;} ' +
+    ' section{margin:0 !important;line-height:1em !important;min-height:0 !important;} ' +
+    ' p{line-height: 1em !important;} ' +
+    ' .rich_media_content p {min-height: 0;} ' +
+    ' br{display:none}',
     head = document.getElementsByTagName('head')[0],
     style = document.createElement('style');
 style.type = 'text/css';
