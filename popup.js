@@ -1,7 +1,8 @@
-let triggerOptimize = document.getElementById('triggerOptimize');//按钮
-
-triggerOptimize.onclick = function () {
+document.getElementById('triggerOptimize').onclick = function () {
     chromeTabs('optimize.js');
+};
+document.getElementById('triggerOptimizeMin').onclick = function () {
+    chromeTabs('optimizeMin.js');
 };
 
 function chromeTabs(file) {
