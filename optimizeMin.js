@@ -1,4 +1,4 @@
-var css = '.rich_media_area_primary_inner { max-width: none; }' +
+var css = '.rich_media_area_primary_inner { max-width: none !important; }' +
     ' .qr_code_pc_inner{display:none;} ',
     head = document.getElementsByTagName('head')[0],
     style = document.createElement('style');
